@@ -1,0 +1,319 @@
+*{
+	padding: 0;
+	margin: 0;
+}
+/*预加载页*/
+.wrap{
+	width:100vw;
+	height:100vh;
+	position: relative;
+	/*display: none;*/
+}
+.bj1{
+	width: 100%;
+	height: 100%;
+}
+.houzi{
+	position: absolute;
+	left: 31%;
+	bottom: 40%;
+	width: 34%;
+}
+.logo1{
+	position: fixed;
+	right: 3%;
+	top: 2%;
+	width: 20%;
+}
+.load{
+	position: absolute;
+	left: 38%;
+	bottom: 28%;
+	font-size: 1.5rem;
+	color: orange;
+	font-family: "arial, helvetica, sans-serif";
+}
+.jindu{
+	position: absolute;
+	left: 40%;
+	bottom: 34%;
+	font-size: 1.2rem;
+	color: orange;
+	font-family: "arial, helvetica, sans-serif";
+}
+/*主页面*/
+.wrap1{
+	width:100vw;
+	height:100vh;
+	position: relative;
+	display:none;
+}
+.bj{
+	position: absolute;
+	width: 100%;
+	height: 100%;
+}
+.logo2{
+	position: fixed;
+	right: 3%;
+	top: 2%;
+	width: 20%;
+}
+.zhishi{
+	position: absolute;
+	bottom: 2%;
+	width: 100%;
+	z-index: 22;
+}
+.go{
+	position: absolute;
+	left: 40%;
+	width: 20%;
+	bottom: 5%;
+	display: none;				
+}
+.houzid{
+	position: absolute;
+	left: 13%;
+	top: 65%;
+	width:34%;
+}
+/*问题*/
+.qus{
+	width:100vw;
+	height:100vh;
+	position: relative;
+	display: none;
+}
+.qs_bg{
+	position: absolute;
+	width: 100%;
+	height: 100%;
+}
+.qus_title{
+	width: 86%;
+	position: absolute;
+	left: 7%;
+	top:5%;
+}
+.q_title{
+	width: 62%;
+	height: 11%;
+	position: absolute;
+	left:26%;
+	top:6%;
+}
+.jishu{
+	width: 15%;
+	height: 5%;
+	position: absolute;
+	left:9%;
+	top: 14%;
+	text-align: center;
+	font-size: 1.2rem;
+}
+.qus_img{
+	width: 50%;
+	position: absolute;
+	left: 25%;
+	top: 22%;
+}
+.aa{
+	width: 86%;
+	height: 12%;
+	position: absolute;
+	bottom: 43%;
+	left: 7%;
+}
+.icon{
+	position: absolute;
+	right: 5%;
+	top: 25%;
+	width: 8%;
+	display: none;
+}
+.ans_A,.ans_B,.ans_C,.ans_D{
+	width: 100%;
+}
+.ans{
+	width: 67%;
+	height:65%;
+	position: absolute;
+	bottom:20%;
+	left: 18%;
+	font-size: 30px;
+	line-height: 50px;
+}
+.bb{
+	width: 86%;
+	height: 12%;
+	position: absolute;
+	bottom: 30%;
+	left: 7%;
+}
+.cc{
+	width: 86%;
+	height: 12%;
+	position: absolute;
+	bottom: 17%;
+	left: 7%;
+}
+.dd{
+	width: 86%;
+	height: 12%;
+	position: absolute;
+	bottom: 4%;
+	left: 7%;
+}
+/*恭喜*/
+.gongxi{
+	width: 100vw;
+	height: 100vh;
+	position: relative;
+	display: none;
+}
+.defen_bg{
+	position: absolute;
+	width:100%;
+	height:100%;
+}
+/*.gong{
+	width: 100vw;
+	height: 100vh;
+	position: relative;
+	display: none;
+}*/
+.defen{
+	width: 80%;
+	font-family: "微软雅黑";
+	font-size:1.8rem;
+	color:#502e35;
+	position: absolute;
+	left: 13%;
+	top: 28%;
+}
+.fen{
+	/*display: inline-block;
+	width: 5%;*/
+	text-align: center;
+}
+.chenghao{
+	position: absolute;
+	top: 44%;
+	left: 24%;
+	font-family: "微软雅黑";
+	font-size:2.2rem;
+	color:#502e35;
+}
+.bang{
+	width: 84%;
+	position: absolute;
+	left: 8%;
+	top: 62%;
+}
+.bang p{
+	color: gold;
+	font-family: "微软雅黑";
+	font-size:1.4rem;
+	text-align: center;
+}
+.again{
+	width: 40%;
+	position:absolute;
+	left: 8%;
+	bottom: 0;
+	z-index: 22;
+}
+.choujiang{
+	width: 40%;
+	position:absolute;
+	right: 8%;
+	bottom: 0;
+	z-index: 22;
+}
+.tiaozhan{
+	width: 40%;
+	position:absolute;
+	right: 8%;
+	bottom: 0;
+	z-index: 22;
+	display: none;
+}
+.share{
+	width: 40%;
+	position:absolute;
+	left: 27%;
+	bottom: 0;
+}
+.logoa{
+	width: 20%;
+	position: absolute;
+	right: 2%;
+	top: 1%;
+}
+/*抽奖*/
+.chou_wrap{
+	width: 100vw;
+	height: 100vh;
+	position: relative;
+	display: none;
+}
+.choujiang_bg{
+	width: 100%;
+	height: 100%;
+	position: absolute;
+}
+.youhui{
+	width: 76%;
+	position: absolute;
+	left: 13%;
+	top: 28%;
+}
+.lingqu{
+	width: 25%;
+	position: absolute;
+	right: 25%;
+	top:55%;
+}
+.xinxi_wrap{
+	width:70%;
+	height: 52.5%;
+	position: absolute;
+	left: 15%;
+	top: 28%;
+	display: none;
+}
+.xinxi{
+	width: 100%;
+}
+.xinx{
+	width:80%;
+	height: 60%;
+	position: absolute;
+	top: 38%;
+	left:10%;
+	font-size: 18px;
+	text-align: center;
+}
+.xinx input{
+	width: 74%;
+}
+.bl{
+	width:80%;
+	margin-top:20px;
+	border: none;
+	border-bottom: 1px black solid;
+	font-size: 18px;	
+}
+/*.xinx input:nth-of-type(4){
+	width: 100%;
+}*/
+.tijiao{
+	position: absolute;
+	bottom: 25%;
+	right: 5%;
+	display: inline-block;
+	width: 20%;
+	height: 15%;
+	font-size: 16px;
+}
